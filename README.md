@@ -6,6 +6,7 @@ Practice Algorithm with LeetCode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Hash Table
@@ -15,6 +16,7 @@ Practice Algorithm with LeetCode
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Enumeration
@@ -36,5 +38,18 @@ Practice Algorithm with LeetCode
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 <!---LeetCode Topics End-->

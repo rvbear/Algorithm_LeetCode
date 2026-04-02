@@ -9,6 +9,7 @@ Practice Algorithm with LeetCode
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2751-robot-collisions](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -20,6 +21,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -49,6 +51,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |

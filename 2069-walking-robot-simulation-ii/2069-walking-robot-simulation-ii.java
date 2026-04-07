@@ -1,7 +1,5 @@
 class Robot {
     int w, h, x, y, dir, per;
-    int[][] directions = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
-    String[] dirNames = {"East", "North", "West", "South"};
 
     public Robot(int width, int height) {
         this.w = width;
@@ -9,7 +7,7 @@ class Robot {
         this.x = 0;
         this.y = 0;
         this.dir = 0;
-        this.per = 2 * (w + h - 2);
+        this.per = 2 * (w + h) - 4;
     }
     
     public void step(int num) {
@@ -18,23 +16,49 @@ class Robot {
         }
 
         num %= per;
-        
+
         if (num == 0) {
-            num = per;
-        }
-
-        while (num-- > 0) {
-            int nx = x + directions[dir][0];
-            int ny = y + directions[dir][1];
-
-            if (nx < 0 || nx >= w || ny < 0 || ny >= h) {
-                dir = (dir + 1) % 4;
-                nx = x + directions[dir][0];
-                ny = y + directions[dir][1];
+            if (x == 0 && y == 0) {
+                dir = 3;
             }
 
-            x = nx;
-            y = ny;
+            return;
+        }
+
+        while (num > 0) {
+            if (dir == 0) {
+                int move = Math.min(num, w - 1 - x);
+                x += move;
+                num -= move;
+
+                if (num > 0) {
+                    dir = 1;
+                }
+            } else if (dir == 1) {
+                int move = Math.min(num, h - 1 - y);
+                y += move;
+                num -= move;
+
+                if (num > 0) {
+                    dir = 2;
+                }
+            } else if (dir == 2) {
+                int move = Math.min(num, x);
+                x -= move;
+                num -= move;
+
+                if (num > 0) {
+                    dir = 3;
+                }
+            } else {
+                int move = Math.min(num, y);
+                y -= move;
+                num -= move;
+
+                if (num > 0) {
+                    dir = 0;
+                }
+            }
         }
     }
     
@@ -43,6 +67,14 @@ class Robot {
     }
     
     public String getDir() {
-        return dirNames[dir];
+        if (dir == 0) {
+            return "East";
+        } else if (dir == 1) {
+            return "North";
+        } else if (dir == 2) {
+            return "West";
+        } else {
+            return "South";
+        }
     }
 }

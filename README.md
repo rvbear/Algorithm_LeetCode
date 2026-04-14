@@ -8,6 +8,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2751-robot-collisions](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -69,6 +70,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
+| [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
@@ -84,6 +86,7 @@ Practice Algorithm with LeetCode
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |

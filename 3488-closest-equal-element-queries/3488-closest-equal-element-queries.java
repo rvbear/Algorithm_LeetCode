@@ -1,49 +1,38 @@
 class Solution {
-    private int binarySearch(List<Integer> list, int target) {
-        int left = 0, right = list.size() - 1;
-
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            int midVal = list.get(mid);
-
-            if (midVal == target) {
-                return mid;
-            } else if (midVal < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
+    private int circularDistance(int from, int to, int n) {
+        if (from <= to) {
+            return to - from;
         }
 
-        return -1;
+        return n - from + to;
     }
 
     public List<Integer> solveQueries(int[] nums, int[] queries) {
-        List<Integer> answer = new ArrayList<>();
-        Map<Integer, List<Integer>> map = new HashMap<>();
+        int[] distances = new int[nums.length];
+        Map<Integer, int[]> lastSeen = new HashMap<>();
         int n = nums.length;
 
         for (int i = 0; i < n; i++) {
-            map.computeIfAbsent(nums[i], k -> new ArrayList<>()).add(i);
-        }
+            distances[i] = Integer.MAX_VALUE;
 
-        for (int q : queries) {
-            List<Integer> temp = map.get(nums[q]);
-            int len = temp.size();
+            if (lastSeen.containsKey(nums[i])) {
+                int lastSeenIndexLeft = lastSeen.get(nums[i])[0];
+                int lastSeenIndexRight = lastSeen.get(nums[i])[1];
 
-            if (len == 1) {
-                answer.add(-1);
+                distances[lastSeenIndexRight] = Math.min(distances[lastSeenIndexRight], circularDistance(lastSeenIndexRight, i, n));
+                distances[lastSeenIndexLeft] = Math.min(distances[lastSeenIndexLeft], circularDistance(i, lastSeenIndexLeft, n));
+                distances[i] = Math.min(circularDistance(lastSeenIndexRight, i, n), circularDistance(i, lastSeenIndexLeft, n));
+
+                lastSeen.put(nums[i], new int[] { lastSeen.get(nums[i])[0], i });
             } else {
-                int nowIndex = binarySearch(temp, q);
-
-                int prevIndex = temp.get((nowIndex - 1 + len) % len);
-                int nextIndex = temp.get((nowIndex + 1) % len);
-
-                int prevDist = Math.min(Math.abs(q - prevIndex), n - Math.abs(q - prevIndex));
-                int nextDist = Math.min(Math.abs(q - nextIndex), n - Math.abs(q - nextIndex));
-
-                answer.add(Math.min(prevDist, nextDist));
+                lastSeen.put(nums[i], new int[] { i, i });
             }
+        }
+        
+        List<Integer> answer = new ArrayList<>();
+
+        for(int q : queries) {
+            answer.add(distances[q] == Integer.MAX_VALUE ? -1 : distances[q]);
         }
 
         return answer;

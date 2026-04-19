@@ -8,6 +8,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -106,6 +107,7 @@ Practice Algorithm with LeetCode
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Design
@@ -117,4 +119,8 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 <!---LeetCode Topics End-->

@@ -1,73 +1,60 @@
 class Solution {
-    int[] parent, rank;
-
-    private int find(int x) {
-        if (parent[x] != x) {
-            parent[x] = find(parent[x]);
+    private int getRoot(int[] line, int index) {
+        if (line[index] == 100001) {
+            line[index] = index;
+            return index;
         }
 
-        return parent[x];
-    }
-
-    private void union(int a, int b) {
-        a = find(a);
-        b = find(b);
-
-        if (a == b) {
-            return;
+        if (line[index] == index) {
+            return index;
         }
 
-        if (rank[a] < rank[b]) {
-            int temp = a;
-            a = b;
-            b = temp;
-        }
-
-        parent[b] = a;
-        
-        if (rank[a] == rank[b]) {
-            rank[a]++;
-        }
+        return getRoot(line, line[index]);
     }
 
     public int minimumHammingDistance(int[] source, int[] target, int[][] allowedSwaps) {
-        int n = source.length;
-        parent = new int[n];
-        rank = new int[n];
+        int[] line = new int[source.length];
+        Arrays.fill(line, 100001);
 
-        for (int i = 0; i < n; i++) {
-            parent[i] = i;
+        for (int[] swap : allowedSwaps) {
+            int root0 = getRoot(line, swap[0]);
+            int root1 = getRoot(line, swap[1]);
+            int min = Integer.min(root0, root1);
+            line[root0] = min;
+            line[root1] = min;
+            line[swap[0]] = min;
+            line[swap[1]] = min;
         }
 
-        for (int[] e : allowedSwaps) {
-            union(e[0], e[1]);
-        }
+        HashMap<Integer, HashMap<Integer, Integer>> pool = new HashMap<>();
+        int different = 0;
+        int noSwap = 0;
 
-        Map<Integer, List<Integer>> groups = new HashMap<>();
-
-        for (int i = 0; i < n; i++) {
-            int root = find(i);
-            groups.computeIfAbsent(root, k -> new ArrayList<>()).add(i);
-        }
-
-        int answer = 0;
-
-        for (List<Integer> indexs : groups.values()) {
-            Map<Integer, Integer> freq = new HashMap<>();
-
-            for (int i : indexs) {
-                freq.put(source[i], freq.getOrDefault(source[i], 0) + 1);
-            }
-
-            for (int i : indexs) {
-                if (freq.getOrDefault(target[i], 0) > 0) {
-                    freq.put(target[i], freq.get(target[i]) - 1);
-                } else {
-                    answer++;
+        for (int i = 0; i < line.length; i++) {
+            if (line[i] == 100001) {
+                if (source[i] != target[i]) {
+                    noSwap++;
                 }
+                continue;
             }
+
+            Integer root = getRoot(line, i);
+
+            if (!pool.containsKey(root)) {
+                pool.put(root, new HashMap<>());
+            }
+
+            HashMap<Integer, Integer> freq = pool.get(root);
+            freq.put(source[i], freq.getOrDefault(source[i], 0)+1);
+            freq.put(target[i], freq.getOrDefault(target[i], 0)-1);
         }
 
-        return answer;
+        for (HashMap<Integer, Integer> freq : pool.values()) {
+            for (Integer value : freq.values()) {
+                different += Math.abs(value);
+            }
+        }
+        
+        return different/2+noSwap;
     }
 }

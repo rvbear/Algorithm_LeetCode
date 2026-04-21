@@ -54,7 +54,7 @@ class Solution {
                 different += Math.abs(value);
             }
         }
-        
-        return different/2+noSwap;
+
+        return different / 2 + noSwap;
     }
 }

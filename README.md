@@ -7,6 +7,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
@@ -90,6 +91,7 @@ Practice Algorithm with LeetCode
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -125,4 +127,8 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 <!---LeetCode Topics End-->

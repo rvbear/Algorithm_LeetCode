@@ -1,35 +1,33 @@
 class Solution {
+    private class Data {
+        long s1, s2;
+        int c1, c2;
+    }
+
     public long[] distance(int[] nums) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
         int n = nums.length;
+        Map<Integer, Data> map = new HashMap<>();
 
         for (int i = 0; i < n; i++) {
-            map.computeIfAbsent(nums[i], k -> new ArrayList<>()).add(i);
+            Data d = map.get(nums[i]);
+            
+            if (d == null) {
+                map.put(nums[i], d = new Data());
+            }
+
+            d.s2 += i;
+            d.c2 += 1;
         }
 
         long[] answer = new long[n];
-
-        for (List<Integer> v : map.values()) {
-            if (v.size() > 1) {
-                int c = v.size();
-                int i = v.get(0);
-                long sum = 0;
-
-                for (int x : v) {
-                    sum += x;
-                }
-
-                answer[i] = sum - (long) c * i;
-                int x = 0, y = c - 2;
-
-                for (int k = 1; k < c; k++) {
-                    int nowIndex = v.get(k);
-                    answer[nowIndex] = answer[i] + (long) (x - y) * (nowIndex - i);
-                    x++;
-                    y--;
-                    i = nowIndex;
-                }
-            }
+        
+        for (int i = 0; i < n; i++) {
+            Data x = map.get(nums[i]);
+            answer[i] = x.s2 - x.s1 + 1L * x.c1 * i - 1L * i * x.c2;
+            x.s1 += i;
+            x.s2 -= i;
+            x.c1 += 1;
+            x.c2 -= 1;
         }
 
         return answer;

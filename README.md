@@ -15,6 +15,7 @@ Practice Algorithm with LeetCode
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [2615-sum-of-distances](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 | [2751-robot-collisions](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
@@ -29,6 +30,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
+| [2615-sum-of-distances](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -48,6 +50,7 @@ Practice Algorithm with LeetCode
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2615-sum-of-distances](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Math
 | Problem Name | Difficulty |

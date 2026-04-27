@@ -1,42 +1,51 @@
 class Solution {
-    public boolean hasValidPath(int[][] grid) {
+    static int LEFT = 0b0001, RIGHT = 0b0010, TOP = 0b0100, BOTTOM = 0b1000;
+    static int[] directions = { 0, LEFT|RIGHT, TOP|BOTTOM, LEFT|BOTTOM, BOTTOM|RIGHT, LEFT|TOP, TOP|RIGHT };
+
+    boolean check(int[][] grid, int outDirection){
         int m = grid.length, n = grid[0].length;
-        Set<Integer>[] dirs = new HashSet[7];
+        int x = 0, y = 0, inDirection = 0;
 
-        dirs[1] = new HashSet<>(Arrays.asList(0, 1));
-        dirs[2] = new HashSet<>(Arrays.asList(2, 3));
-        dirs[3] = new HashSet<>(Arrays.asList(0, 3));
-        dirs[4] = new HashSet<>(Arrays.asList(1, 3));
-        dirs[5] = new HashSet<>(Arrays.asList(0, 2));
-        dirs[6] = new HashSet<>(Arrays.asList(1, 2));
-
-        int[][] moves = {{0, -1, 0, 1}, {0, 1, 1, 0}, {-1, 0, 2, 3}, {1, 0, 3, 2}};
-        boolean[][] visited = new boolean[m][n];
-        Queue<int[]> q = new LinkedList<>();
-        
-        q.offer(new int[] {0, 0});
-        visited[0][0] = true;
-
-        while (!q.isEmpty()) {
-            int[] cur = q.poll();
-            int r = cur[0], c = cur[1];
-
-            if (r == m - 1 && c == n - 1) {
+        while (true) {
+            if (x == m - 1 && y == n - 1) {
                 return true;
             }
 
-            for (int[] move : moves) {
-                int nr = r + move[0], nc = c + move[1];
+            if (outDirection == LEFT) {
+                y--;
+                inDirection = RIGHT;
+            } else if (outDirection == RIGHT) {
+                y++;
+                inDirection = LEFT;
+            } else if (outDirection == TOP) {
+                x--;
+                inDirection = BOTTOM;
+            } else if (outDirection == BOTTOM) {
+                x++;
+                inDirection = TOP;
+            } else {
+                return false;
+            }
+            
+            if (x == 0 && y == 0) {
+                return false;
+            }
 
-                if (nr >= 0 && nr < m && nc >= 0 && nc < n && !visited[nr][nc]) {
-                    if (dirs[grid[r][c]].contains(move[2]) && dirs[grid[nr][nc]].contains(move[3])) {
-                        visited[nr][nc] = true;
-                        q.offer(new int[] {nr, nc});
-                    }
-                }
+            if (x < 0 || x >= m || y < 0 || y >= n) {
+                return false;
+            }
+
+            int nextDirection = directions[grid[x][y]];
+            outDirection = nextDirection & (~inDirection);
+
+            if (outDirection == nextDirection) {
+                return false;
             }
         }
+    }
 
-        return false;
+    public boolean hasValidPath(int[][] grid) {
+        int outDirection = directions[grid[0][0]];
+        return check(grid, outDirection & BOTTOM) || check(grid, outDirection & RIGHT);
     }
 }

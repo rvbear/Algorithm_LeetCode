@@ -1,27 +1,38 @@
 class Solution {
     public int minOperations(int[][] grid, int x) {
-        List<Integer> result = new ArrayList<>();
+        int n = grid.length, m = grid[0].length;
+        int[] freq = new int[10001];
+        boolean foundFalse = false;
+        int currChoice = grid[0][0];
 
         for (int[] row : grid) {
-            for (int v : row) {
-                result.add(v);
+            for (int y : row) {
+                freq[y]++;
+
+                if (Math.abs(currChoice - y) % x != 0) {
+                    foundFalse = true;
+                }
             }
         }
 
-        int mod = result.get(0) % x;
-
-        for (int v : result) {
-            if (v % x != mod) {
-                return -1;
-            }
+        if (foundFalse) {
+            return -1;
         }
 
-        Collections.sort(result);
-        int m = result.get(result.size() / 2);
+        int[] arr = new int[n * m];
+        int k = 0;
+        
+        for (int i = 0; i < 10001; i++) {
+            for (int j = 0; j < freq[i]; j++) {
+                arr[k++] = i;
+            }
+        }
+        
         int count = 0;
+        int median = arr[arr.length / 2];
 
-        for (int v : result) {
-            count += Math.abs(v - m) / x;
+        for (int num : arr) {
+            count += Math.abs(num - median) / x;
         }
 
         return count;

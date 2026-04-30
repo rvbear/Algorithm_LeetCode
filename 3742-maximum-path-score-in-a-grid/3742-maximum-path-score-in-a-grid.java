@@ -1,48 +1,51 @@
 class Solution {
-    int limit;
+    private int minPathSum(int[][] grid) {
+        int n = grid[0].length;
+        int[] f = new int[n + 1];
+        Arrays.fill(f, Integer.MAX_VALUE);
+        f[1] = 0;
 
-    private int compute(int i, int j, int cost, int[][] grid, int k, int[][][] dp) {
-        if (cost > k) {
-            return limit;
-        }
-
-        if (dp[i][j][cost] != -1) {
-            return dp[i][j][cost];
-        }
-
-        if (i == grid.length - 1 && j == grid[0].length - 1) {
-            if (grid[i][j] != 0 && cost + 1 > k) {
-                return limit;
+        for (int[] row : grid) {
+            for (int j = 0; j < n; j++) {
+                f[j + 1] = Math.min(f[j], f[j + 1]) + Math.min(row[j], 1);
             }
-
-            return grid[i][j];
         }
 
-        if (i == grid.length || j == grid[0].length) {
-            return limit;
-        }
-
-        int answer = limit;
-        int toAdd = grid[i][j] != 0 ? 1 : 0;
-        answer = Math.max(answer, compute(i + 1, j, cost + toAdd, grid, k, dp));
-        answer = Math.max(answer, compute(i, j + 1, cost + toAdd, grid, k, dp));
-
-        return dp[i][j][cost] = (answer == limit ? answer : answer + grid[i][j]);
+        return f[n];
     }
 
-    public int maxPathScore(int[][] grid, int k) {
-        limit = -2;
-        int m = grid.length, n = grid[0].length;
-        int[][][] dp = new int[m + 1][n + 1][Math.min(k + 1, m + n + 1)];
+    public int maxPathScore(int[][] grid, int K) {
+        if (minPathSum(grid) > K) {
+            return -1;
+        }
 
-        for (int[][] i : dp) {
-            for (int[] j : i) {
-                Arrays.fill(j, -1);
+        int m = grid.length, n = grid[0].length;
+        K = Math.min(K, m + n - 2);
+        int[][] f = new int[n + 1][K + 2];
+
+        for (int[] row : f) {
+            Arrays.fill(row, Integer.MIN_VALUE);
+        }
+
+        f[1][1] = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                int x = grid[i][j];
+
+                for (int k = Math.min(K, i + j); k >= 0; k--) {
+                    int newK = x > 0 ? k - 1 : k;
+                    f[j + 1][k + 1] = Math.max(f[j + 1][newK + 1], f[j][newK + 1]) + x;
+                }
             }
         }
 
-        int answer = compute(0, 0, 0, grid, k, dp);
+        int answer = 0;
 
-        return answer == limit ? -1 : answer;
+        for (int x : f[n]) {
+            answer = Math.max(answer, x);
+        }
+
+        return answer;
     }
 }

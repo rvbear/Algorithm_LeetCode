@@ -6,6 +6,7 @@ Practice Algorithm with LeetCode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -67,6 +68,7 @@ Practice Algorithm with LeetCode
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -97,6 +99,7 @@ Practice Algorithm with LeetCode
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |

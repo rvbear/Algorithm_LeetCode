@@ -6,6 +6,7 @@ Practice Algorithm with LeetCode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -46,6 +47,7 @@ Practice Algorithm with LeetCode
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
@@ -68,6 +70,7 @@ Practice Algorithm with LeetCode
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |

@@ -1,32 +1,31 @@
 class Solution {
-    public char[][] rotateTheBox(char[][] boxGrid) {
-        int m = boxGrid.length, n = boxGrid[0].length;
-        char[][] answer = new char[n][m];
+    private void processRow(char[] row, char[][] rotatedGrid, int x) {
+        int lowestBarrier = row.length;
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                answer[j][m - 1 - i] = boxGrid[i][j];
-            }
-        }
+        for (int curr = row.length - 1; curr >= 0; curr--) {
+            if (row[curr] == '#') {
+                lowestBarrier -= 1;
+                rotatedGrid[lowestBarrier][x] = '#';
 
-        int[] emptyIndex = new int[m];
-        Arrays.fill(emptyIndex, n - 1);
-
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = 0; j < m; j++) {
-                if (answer[i][j] == '#') {
-                    if (emptyIndex[j] != i) {
-                        answer[emptyIndex[j]][j] = '#';
-                        answer[i][j] = '.';
-                    }
-
-                    emptyIndex[j]--;
-                } else if (answer[i][j] == '*') {
-                    emptyIndex[j] = i - 1;
+                if (curr != lowestBarrier) {
+                    rotatedGrid[curr][x] = '.';
                 }
+            } else if (row[curr] == '*') {
+                lowestBarrier = curr;
+                rotatedGrid[lowestBarrier][x] = '*';
+            } else {
+                rotatedGrid[curr][x] = '.';
             }
         }
+    }
 
-        return answer;
+    public char[][] rotateTheBox(char[][] boxGrid) {
+        char[][] rotatedGrid = new char[boxGrid[0].length][boxGrid.length];
+
+        for (int i = 0; i < boxGrid.length; i++) {
+            processRow(boxGrid[i], rotatedGrid, boxGrid.length - 1 - i);
+        }
+
+        return rotatedGrid;
     }
 }

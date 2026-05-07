@@ -1,29 +1,18 @@
 class Solution {
     public int[] maxValue(int[] nums) {
-        int n = nums.length;
-        int[] pre = new int[n];
-        int[] suf = new int[n];
+        int n = nums.length, min = Integer.MAX_VALUE;
         int[] ans = new int[n];
+        ans[0] = nums[0];
 
-        pre[0] = nums[0];
-        
         for (int i = 1; i < n; i++) {
-            pre[i] = Math.max(pre[i - 1], nums[i]);
+            ans[i] = Math.max(ans[i - 1], nums[i]);
         }
 
-        suf[n - 1] = nums[n - 1];
-
         for (int i = n - 2; i >= 0; i--) {
-            suf[i] = Math.min(suf[i + 1], nums[i]);
-        }
+            min = Math.min(min, nums[i + 1]);
 
-        ans[n - 1] = pre[n - 1];
-
-        for (int i = n - 2; i >= 0; i--) {
-            if (pre[i] > suf[i + 1]) {
+            if (min < ans[i]) {
                 ans[i] = ans[i + 1];
-            } else {
-                ans[i] = pre[i];
             }
         }
 

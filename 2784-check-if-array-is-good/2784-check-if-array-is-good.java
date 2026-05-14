@@ -1,19 +1,22 @@
 class Solution {
     public boolean isGood(int[] nums) {
-        int n = nums.length, target = 1;
-        
-        Arrays.sort(nums);
+        int n = nums.length;
+        int[] freq = new int[n];
 
-        for (int i = 0; i < n - 1; i++) {
-            System.out.println(nums[i]);
-            
-            if (target != nums[i]) {
+        for (int num : nums) {
+            if (num >= n) {
                 return false;
             }
 
-            target++;
+            freq[num]++;
         }
-        
-        return --target == nums[n - 1];
+
+        for (int i = 1; i < n - 1; i++) {
+            if (freq[i] != 1) {
+                return false;
+            }
+        }
+
+        return freq[n - 1] == 2;
     }
 }

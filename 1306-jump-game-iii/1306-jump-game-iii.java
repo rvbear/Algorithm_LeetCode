@@ -1,27 +1,23 @@
 class Solution {
+    List<Integer> visited = new ArrayList<Integer>();
+
     public boolean canReach(int[] arr, int start) {
-        int n = arr.length;
-        boolean[] visited = new boolean[n];
-        Queue<Integer> q = new LinkedList<>();
+        if (start < 0 || start >= arr.length || visited.size() == arr.length) {
+            return false;
+        }
 
-        q.offer(start);
+        if (arr[start] == 0) {
+            return true;
+        } else if (visited.contains(start) == false) {
+            visited.add(start);
 
-        while (!q.isEmpty()) {
-            int nowIndex = q.poll();
-            
-            if (nowIndex < 0 || nowIndex >= n || visited[nowIndex]) {
-                continue;
-            }
-
-            if (arr[nowIndex] == 0) {
+            if (arr[start] == 1 && arr[arr.length - 1] == 0) {
                 return true;
             }
 
-            visited[nowIndex] = true;
-            q.offer(nowIndex + arr[nowIndex]);
-            q.offer(nowIndex - arr[nowIndex]);
+            return canReach(arr, start + arr[start]) || canReach(arr, start - arr[start]);
+        } else {
+            return false;
         }
-
-        return false;
     }
 }

@@ -13,6 +13,7 @@ Practice Algorithm with LeetCode
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1306-jump-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1306-jump-game-iii/) | Medium |
+| [1340-jump-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -139,6 +140,7 @@ Practice Algorithm with LeetCode
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
+| [1340-jump-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -164,6 +166,7 @@ Practice Algorithm with LeetCode
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1340-jump-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |

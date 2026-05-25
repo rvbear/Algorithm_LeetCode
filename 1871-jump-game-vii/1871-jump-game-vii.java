@@ -1,32 +1,33 @@
 class Solution {
     public boolean canReach(String s, int minJump, int maxJump) {
-        int n = s.length();
+        int start = 0, end = 0, n = s.length();
 
-        if (s.charAt(n - 1) == '1') {
+        if (n == 0 || s.charAt(0) == '1' || s.charAt(n - 1) == '1') {
             return false;
         }
 
-        int[] dp = new int[n];
-        dp[0] = 1;
-        int reach = 0, maxR = maxJump;
+        boolean[] dp = new boolean[n];
+        dp[0] = true;
 
-        for (int i = minJump; i < n; i++) {
-            if (i > maxR) {
-                return false;
+        for (int i = 0; i < n; i++) {
+            if (!dp[i]) {
+                continue;
             }
 
-            reach += dp[i - minJump];
+            start = Math.max(end + 1, i + minJump);
+            end = Math.min(n - 1, i + maxJump);
 
-            if (i > maxJump) {
-                reach -= dp[i - maxJump - 1];
+            for (int j = start; j <= end; j++) {
+                if (s.charAt(j) == '0') {
+                    dp[j] = true;
+                }
             }
 
-            if (reach > 0 && s.charAt(i) == '0') {
-                dp[i] = 1;
-                maxR = i + maxJump;
+            if (dp[n - 1]) {
+                return true;
             }
         }
 
-        return reach > 0;
+        return dp[n - 1];
     }
 }

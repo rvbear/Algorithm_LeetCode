@@ -23,7 +23,7 @@ class Solution {
             int answer = 0;
 
             for (int l = n, rIndex = r + n + 1; l < rIndex; l >>= 1, rIndex >>= 1) {
-                if ((l % 1) != 0) {
+                if ((l & 1) != 0) {
                     answer = Math.max(answer, tree[l++]);
                 }
 

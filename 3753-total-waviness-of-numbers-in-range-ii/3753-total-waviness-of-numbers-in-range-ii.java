@@ -1,46 +1,85 @@
 class Solution {
-    private String s;
-    private Map<String, long[]> map = new HashMap<>();
+    static final int NONE = 0, UP = 1, DOWN = 2, FLAT = 3;
+    int[] digits;
+    Map<Long, long[]> memo;
 
-    private long[] dfs(int i, int a, int b, int t, int st, int len) {
-        if (i == s.length()) {
-            return new long[] {1, 0};
+    private long[] dp(int pos, int prev, int dir, boolean tight, boolean started) {
+        if (pos == digits.length) {
+            return new long[] { started ? 1 : 0, 0 };
         }
 
-        String key = i + "," + a + "," + b + "," + t + "," + st + "," + len;
-        if (map.containsKey(key)) {
-            return map.get(key);
+        long key = ((long) pos * 10 + prev) * 4 + dir;
+        key = key * 2 + (tight ? 1 : 0);
+        key = key * 2 + (started ? 1 : 0);
+
+        if (memo.containsKey(key)) {
+            return memo.get(key);
         }
 
-        long count = 0, wave = 0;
-        int limit = t == 1 ? (s.charAt(i) - '0') : 9;
+        int limit = tight ? digits[pos] : 9;
+        long count = 0, waveSum = 0;
 
         for (int d = 0; d <= limit; d++) {
-            long[] result = dfs(i + 1, b, d, 
-                t == 1 && d == (s.charAt(i) - '0') ? 1 : 0,
-                (st == 1 || d > 0) ? 1 : 0,
-                (st == 1 || d > 0) ? len + 1 : 0);
-            long c = result[0], w = result[1];
+            boolean newTight = tight && (d == limit);
+            boolean newStarted = started || (d != 0);
+            int newPrev, newDir;
 
-            if (len > 1 && ((a < b && b > d) || (a > b && b < d))) {
-                w += c;
+            if (!newStarted) {
+                newPrev = 0;
+                newDir = NONE;
+            } else if (!started) {
+                newPrev = d;
+                newDir = NONE;
+            } else {
+                newPrev = d;
+
+                if (d > prev) {
+                    newDir = UP;
+                } else if (d < prev) {
+                    newDir = DOWN;
+                } else {
+                    newDir = FLAT;
+                }
             }
 
-            count += c;
-            wave += w;
+            long extra = 0;
+
+            if (started) {
+                if (dir == UP && d < prev) {
+                    extra = 1;
+                }
+
+                if (dir == DOWN && d > prev) {
+                    extra = 1;
+                }
+            }
+
+            long[] sub = dp(pos + 1, newPrev, newDir, newTight, newStarted);
+            count += sub[0];
+            waveSum += sub[1] + extra * sub[0];
         }
 
-        long[] answer = {count, wave};
-        map.put(key, answer);
+        long[] res = new long[] { count, waveSum };
+        memo.put(key, res);
 
-        return answer;
+        return res;
     }
 
-    private long solve(long n) {
-        s = Long.toString(n);
-        map.clear();
+    long solve(long num) {
+        if (num <= 0) {
+            return 0;
+        }
+
+        memo = new HashMap<>();
+
+        String s = Long.toString(num);
+        digits = new int[s.length()];
         
-        return dfs(0, 0, 0, 1, 0, 0)[1];
+        for (int i = 0; i < s.length(); i++) {
+            digits[i] = s.charAt(i) - '0';
+        }
+
+        return dp(0, 0, NONE, true, false)[1];
     }
 
     public long totalWaviness(long num1, long num2) {

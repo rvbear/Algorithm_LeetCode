@@ -2,7 +2,7 @@ class Solution {
     private static final int MOD = 26;
 
     public String mapWordWeights(String[] words, int[] weights) {
-        String answer = "";
+        StringBuilder stb = new StringBuilder();
 
         for (String word : words) {
             int sum = 0;
@@ -11,9 +11,9 @@ class Solution {
                 sum += weights[c - 'a'];
             }
 
-            answer += (char) ('z' - (sum % MOD));
+            stb.append((char) ('z' - (sum % MOD)));
         }
 
-        return answer;
+        return stb.toString();
     }
 }

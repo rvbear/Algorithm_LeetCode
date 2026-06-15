@@ -4,21 +4,16 @@ class Solution {
             return null;
         }
 
-        int n = 0;
-        ListNode cur = head;
+        ListNode fast = head;
+        ListNode slow = new ListNode(-1);
+        slow.next = head;
 
-        while (cur != null) {
-            n++;
-            cur = cur.next;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
 
-        cur = head;
-
-        for (int i = 0; i < n / 2 - 1; i++) {
-            cur = cur.next;
-        }
-
-        cur.next = cur.next.next;
+        slow.next = slow.next.next;
 
         return head;
     }

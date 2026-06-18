@@ -49,6 +49,7 @@ Practice Algorithm with LeetCode
 | [3161-block-placement-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3161-block-placement-queries/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3314-construct-the-minimum-bitwise-array-i/) | Easy |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3488-closest-equal-element-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3488-closest-equal-element-queries/) | Medium |
@@ -316,6 +317,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3314-construct-the-minimum-bitwise-array-i/) | Easy |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |

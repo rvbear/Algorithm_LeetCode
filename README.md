@@ -66,6 +66,7 @@ Practice Algorithm with LeetCode
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3689-maximum-total-subarray-value-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 | [3691-maximum-total-subarray-value-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
@@ -89,6 +90,7 @@ Practice Algorithm with LeetCode
 | [3488-closest-equal-element-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 ## Matrix
@@ -122,6 +124,7 @@ Practice Algorithm with LeetCode
 | [3225-maximum-score-from-grid-operations](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3699-number-of-zigzag-arrays-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -271,6 +274,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -303,6 +307,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2833-furthest-point-from-origin/) | Easy |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -344,6 +349,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [3161-block-placement-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3161-block-placement-queries/) | Hard |
 | [3691-maximum-total-subarray-value-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -362,4 +368,8 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 <!---LeetCode Topics End-->

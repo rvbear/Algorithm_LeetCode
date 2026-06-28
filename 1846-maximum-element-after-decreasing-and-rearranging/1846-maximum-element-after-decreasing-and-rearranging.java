@@ -1,14 +1,35 @@
 class Solution {
+    private static final int MAX = 100000;
+    private static int[] freqs = new int[MAX];
+
     public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
-        Arrays.sort(arr);
         int n = arr.length;
 
-        arr[0] = 1;
-
-        for (int i = 1; i < n; i++) {
-            arr[i] = Math.min(arr[i], arr[i - 1] + 1);
+        if (n == 1) {
+            return 1;
         }
 
-        return arr[n - 1];
+        for (int v : arr) {
+            if (v <= n) {
+                freqs[v - 1]++;
+            }
+        }
+
+        int maxe = n, c = -1;
+        
+        for (int v = 0; v < maxe; v++) {
+            c += freqs[v];
+
+            if (c > v) {
+                maxe -= c - v;
+                c = v;
+            }
+
+            freqs[v] = 0;
+        }
+
+        Arrays.fill(freqs, maxe, n, 0);
+
+        return maxe;
     }
 }

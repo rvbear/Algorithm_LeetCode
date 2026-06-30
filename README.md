@@ -81,6 +81,7 @@ Practice Algorithm with LeetCode
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1345-jump-game-iv/) | Hard |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2540-minimum-common-value/) | Easy |
@@ -174,6 +175,7 @@ Practice Algorithm with LeetCode
 | [0796-rotate-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0796-rotate-string/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2075-decode-the-slanted-ciphertext](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
@@ -351,6 +353,7 @@ Practice Algorithm with LeetCode
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |

@@ -1,31 +1,41 @@
 class Solution {
-    private int find(int[] root, int i) {
-        if (root[i] == i) {
-            return i;
+    private int[] parent;
+    private int[] minEdge;
+
+    private int find(int x) {
+        while (parent[x] != x) {
+            parent[x] = parent[parent[x]];
+            x = parent[x];
         }
 
-        return root[i] = find(root, root[i]);
+        return x;
+    }
+
+    private void union(int a, int b, int d) {
+        int parentA = find(a);
+        int parentB = find(b);
+
+        if (parentA != parentB) {
+            parent[parentA] = parentB;
+            minEdge[parentB] = Math.min(minEdge[parentB], Math.min(minEdge[parentA], d));
+        } else {
+            minEdge[parentA] = Math.min(minEdge[parentA], d);
+        }
     }
 
     public int minScore(int n, int[][] roads) {
-        int[] root = new int[n + 1];
-        
+        parent = new int[n + 1];
+        minEdge = new int[n + 1];
+
         for (int i = 0; i <= n; i++) {
-            root[i] = i;
+            parent[i] = i;
+            minEdge[i] = Integer.MAX_VALUE;
         }
 
-        for (int[] r : roads) {
-            root[find(root, r[0])] = find(root, r[1]);
+        for (int[] road : roads) {
+            union(road[0], road[1], road[2]);
         }
 
-        int answer = 10001;
-
-        for (int[] r : roads) {
-            if (find(root, r[0]) == find(root, 1)) {
-                answer = Math.min(answer, r[2]);
-            }
-        }
-
-        return answer;
+        return minEdge[find(1)];
     }
 }

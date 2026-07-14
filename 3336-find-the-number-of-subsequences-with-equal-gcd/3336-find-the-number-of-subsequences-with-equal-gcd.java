@@ -1,52 +1,55 @@
 class Solution {
-    private static final int MOD = 1_000_000_007;
+    static final int MOD = 1000000007;
 
     private int gcd(int a, int b) {
         while (b != 0) {
-            int t = a % b;
+            int temp = a;
             a = b;
-            b = t;
+            b = temp % b;
         }
-
         return a;
     }
 
     public int subsequencePairCount(int[] nums) {
-        int n = nums.length;
-        int[][][] dp = new int[n + 1][201][201];
+        int m = 0;
 
-        dp[0][0][0] = 1;
+        for (int num : nums) {
+            m = Math.max(m, num);
+        }
 
-        for (int i = 0; i < n; i++) {
-            int x = nums[i];
+        int[][] dp = new int[m + 1][m + 1];
+        dp[0][0] = 1;
 
-            for (int g1 = 0; g1 <= 200; g1++) {
-                for (int g2 = 0; g2 <= 200; g2++) {
-                    if (dp[i][g1][g2] == 0) {
+        for (int num : nums) {
+            int[][] ndp = new int[m + 1][m + 1];
+
+            for (int j = 0; j <= m; j++) {
+                int divisor1 = gcd(j, num);
+
+                for (int k = 0; k <= m; k++) {
+                    int val = dp[j][k];
+
+                    if (val == 0) {
                         continue;
                     }
 
-                    long ways = dp[i][g1][g2];
+                    int divisor2 = gcd(k, num);
 
-                    dp[i + 1][g1][g2] = (int) ((dp[i + 1][g1][g2] + ways) % MOD);
-
-                    int ng1 = (g1 == 0) ? x : gcd(g1, x);
-
-                    dp[i + 1][ng1][g2] = (int) ((dp[i + 1][ng1][g2] + ways) % MOD);
-
-                    int ng2 = (g2 == 0) ? x : gcd(g2, x);
-
-                    dp[i + 1][g1][ng2] = (int) ((dp[i + 1][g1][ng2] + ways) % MOD);
+                    ndp[j][k] = (ndp[j][k] + val) % MOD;
+                    ndp[divisor1][k] = (ndp[divisor1][k] + val) % MOD;
+                    ndp[j][divisor2] = (ndp[j][divisor2] + val) % MOD;
                 }
             }
+
+            dp = ndp;
         }
 
-        long answer = 0;
-
-        for (int g = 1; g <= 200; g++) {
-            answer = (answer + dp[n][g][g]) % MOD;
+        int answer = 0;
+        
+        for (int j = 1; j <= m; j++) {
+            answer = (answer + dp[j][j]) % MOD;
         }
 
-        return (int) answer;
+        return answer;
     }
 }

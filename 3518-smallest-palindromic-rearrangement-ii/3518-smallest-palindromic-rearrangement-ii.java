@@ -1,101 +1,82 @@
 class Solution {
-    private final static long TOP = 3_000_000_000L;
-
-    private long countArrangements(int[] count, int total) {
-        long result = 1;
-        int remaining = total;
-
-        for (int i = 0; i < 26 && result <= TOP; i++) {
-            int c = count[i];
-            long comb = 1;
-
-            for (int j = 1; j <= c; j++) {
-                comb = comb * (remaining - c + j) / j;
-
-                if (comb > TOP) {
-                    comb = TOP + 1;
-                    break;
-                }
-            }
-
-            result *= comb;
-
-            if (result > TOP) {
-                result = TOP + 1;
-                break;
-            }
-
-            remaining -= c;
-        }
-
-        return result;
-    }
-
     public String smallestPalindrome(String s, int k) {
+        int[] freq = new int[26];
         int n = s.length();
-        int[] count = new int[26];
+        int cnt = 0;
+        long totalWays = 1L;
 
-        for (char c : s.toCharArray()) {
-            count[c - 'a']++;
+        for (int i = 0; i < n / 2; i++) {
+            freq[s.charAt(i)-'a']++;
         }
 
-        int oddIndex = -1;
+        char[] alpha = {
+            'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+        };
+        StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < 26; i++) {
-            if (count[i] % 2 != 0) {
-                oddIndex = i;
+        outer: for (int i = 25; i >= 0; i--) {
+            if (freq[i] == 0) {
+                continue;
+            }
+
+            int j = 1;
+
+            while (j <= freq[i]) {
+                cnt++;
+                totalWays = (totalWays * cnt) / j;
+
+                if (totalWays > k) {
+                    for (int l = 0; l < i; l++) {
+                        while (freq[l] > 0) {
+                            sb.append(alpha[l]);
+                            freq[l]--;
+                        }
+                    }
+
+                    while (freq[i] > j) {
+                        sb.append(alpha[i]);
+                        freq[i]--;
+                    }
+
+                    break outer;
+                }
+
+                j++;
             }
         }
 
-        int[] half = new int[26];
-        int halfLen = 0;
-
-        for (int i = 0; i < 26; i++) {
-            half[i] = count[i] / 2;
-            halfLen += half[i];
-        }
-
-        long total = countArrangements(half, halfLen);
-
-        if (total < k) {
+        if (k > totalWays) {
             return "";
         }
+        
+        for (int i = 0; i < cnt; i++) {
+            for (char ch = 'a'; ch <= 'z'; ch++) {
+                int j = ch - 'a';
 
-        StringBuilder sb = new StringBuilder();
-        long remainingK = k;
-        int remaining = halfLen;
-
-        for (int i = 0; i < halfLen; i++) {
-            for (int j = 0; j < 26; j++) {
-                if (half[j] == 0) {
+                if (freq[j] == 0){
                     continue;
                 }
 
-                half[j]--;
-
-                long arrangements = countArrangements(half, remaining - 1);
-
-                if (remainingK <= arrangements) {
-                    sb.append((char) ('a' + j));
-                    break;
+                if (k <= (totalWays * freq[j]) / (cnt - i)) {
+                   totalWays = (totalWays * freq[j]) / (cnt - i);
+                   freq[j]--;
+                   sb.append(ch);
+                   break;
                 } else {
-                    remainingK -= arrangements;
-                    half[j]++;
+                    k = (int) (k - (totalWays * freq[j]) / (cnt - i));
                 }
             }
-
-            remaining--;
         }
 
-        String halfStr = sb.toString();
-        StringBuilder full = new StringBuilder(halfStr);
-
-        if (oddIndex != -1) {
-            full.append((char) ('a' + oddIndex));
+        if (n % 2 == 1) {
+            sb.append(s.charAt(n / 2));
         }
 
-        full.append(new StringBuilder(halfStr).reverse());
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            sb.append(sb.charAt(i));
+        }
 
-        return full.toString();
+        return sb.toString();
     }
 }

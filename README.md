@@ -56,6 +56,7 @@ Practice Algorithm with LeetCode
 | [2784-check-if-array-is-good](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
@@ -108,6 +109,7 @@ Practice Algorithm with LeetCode
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
@@ -465,6 +467,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
 | ------- | ------- |

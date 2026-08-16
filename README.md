@@ -36,6 +36,7 @@ Practice Algorithm with LeetCode
 | [1861-rotating-the-box](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2126-destroying-asteroids](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
@@ -185,6 +186,7 @@ Practice Algorithm with LeetCode
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
@@ -296,6 +298,7 @@ Practice Algorithm with LeetCode
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1833-maximum-ice-cream-bars](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2126-destroying-asteroids](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -422,6 +425,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3312-sorted-gcd-pair-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
@@ -549,16 +553,19 @@ Practice Algorithm with LeetCode
 | [0877-stone-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -567,4 +574,8 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
+## Nim Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 <!---LeetCode Topics End-->

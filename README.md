@@ -20,6 +20,7 @@ Practice Algorithm with LeetCode
 | [1306-jump-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1340-jump-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1345-jump-game-iv/) | Hard |
+| [1386-cinema-seat-allocation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -107,6 +108,7 @@ Practice Algorithm with LeetCode
 | [1189-maximum-number-of-balloons](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1345-jump-game-iv/) | Hard |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2540-minimum-common-value/) | Easy |
@@ -300,6 +302,7 @@ Practice Algorithm with LeetCode
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1386-cinema-seat-allocation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1833-maximum-ice-cream-bars](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
@@ -470,6 +473,7 @@ Practice Algorithm with LeetCode
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1386-cinema-seat-allocation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3314-construct-the-minimum-bitwise-array-i/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |

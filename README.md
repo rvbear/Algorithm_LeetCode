@@ -36,6 +36,7 @@ Practice Algorithm with LeetCode
 | [1848-minimum-distance-to-the-target-element](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1861-rotating-the-box/) | Medium |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [1914-cyclically-rotating-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
@@ -173,6 +174,7 @@ Practice Algorithm with LeetCode
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2615-sum-of-distances](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
@@ -194,6 +196,7 @@ Practice Algorithm with LeetCode
 | [1344-angle-between-hands-of-a-clock](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1563-stone-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1563-stone-game-v/) | Hard |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [1927-sum-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
@@ -289,6 +292,7 @@ Practice Algorithm with LeetCode
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1563-stone-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1563-stone-game-v/) | Hard |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -575,6 +579,7 @@ Practice Algorithm with LeetCode
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1563-stone-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1563-stone-game-v/) | Hard |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [1927-sum-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 ## Minimax
@@ -582,12 +587,14 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
+| [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |

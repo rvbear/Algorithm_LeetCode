@@ -87,6 +87,7 @@ Practice Algorithm with LeetCode
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3620-network-recovery-pathways](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -136,6 +137,7 @@ Practice Algorithm with LeetCode
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3518-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3718-smallest-missing-multiple-of-k/) | Easy |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3720-lexicographically-smallest-permutation-greater-than-target/) | Medium |
@@ -161,6 +163,7 @@ Practice Algorithm with LeetCode
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -483,6 +486,7 @@ Practice Algorithm with LeetCode
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -512,6 +516,7 @@ Practice Algorithm with LeetCode
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |

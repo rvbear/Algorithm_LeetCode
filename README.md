@@ -208,6 +208,7 @@ Practice Algorithm with LeetCode
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0486-predict-the-winner](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0486-predict-the-winner/) | Medium |
 | [0788-rotated-digits](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0788-rotated-digits/) | Medium |
+| [0836-rectangle-overlap](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
 | [0877-stone-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
@@ -487,6 +488,7 @@ Practice Algorithm with LeetCode
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |

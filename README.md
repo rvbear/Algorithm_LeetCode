@@ -187,6 +187,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1140-stone-game-ii/) | Medium |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
@@ -214,6 +215,7 @@ Practice Algorithm with LeetCode
 | [1344-angle-between-hands-of-a-clock](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1563-stone-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1563-stone-game-v/) | Hard |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [1927-sum-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
@@ -318,6 +320,7 @@ Practice Algorithm with LeetCode
 | [1340-jump-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1406-stone-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1563-stone-game-v](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1563-stone-game-v/) | Hard |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [1871-jump-game-vii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1871-jump-game-vii/) | Medium |
 | [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
@@ -608,6 +611,7 @@ Practice Algorithm with LeetCode
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3312-sorted-gcd-pair-queries](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3518-smallest-palindromic-rearrangement-ii/) | Hard |

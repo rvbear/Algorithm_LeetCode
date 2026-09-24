@@ -91,6 +91,7 @@ Practice Algorithm with LeetCode
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3548-equal-sum-grid-partition-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3620-network-recovery-pathways](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
@@ -242,6 +243,7 @@ Practice Algorithm with LeetCode
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3518-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3524-find-x-value-of-array-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3525-find-x-value-of-array-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3525-find-x-value-of-array-ii/) | Hard |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |

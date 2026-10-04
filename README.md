@@ -288,6 +288,7 @@ Practice Algorithm with LeetCode
 | [0022-generate-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0796-rotate-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0796-rotate-string/) | Easy |
 | [0940-distinct-subsequences-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
@@ -337,6 +338,7 @@ Practice Algorithm with LeetCode
 | [0032-longest-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0486-predict-the-winner](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0486-predict-the-winner/) | Medium |
+| [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0788-rotated-digits](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [0877-stone-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0877-stone-game/) | Medium |
 | [0940-distinct-subsequences-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0940-distinct-subsequences-ii/) | Hard |
@@ -373,6 +375,7 @@ Practice Algorithm with LeetCode
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -447,6 +450,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0032-longest-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -708,6 +712,7 @@ Practice Algorithm with LeetCode
 | [0020-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |

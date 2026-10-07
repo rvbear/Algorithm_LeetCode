@@ -287,6 +287,7 @@ Practice Algorithm with LeetCode
 | [0020-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0301-remove-invalid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0796-rotate-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0796-rotate-string/) | Easy |
@@ -548,6 +549,7 @@ Practice Algorithm with LeetCode
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1306-jump-game-iii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1345-jump-game-iv/) | Hard |
@@ -701,6 +703,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Ordered Set

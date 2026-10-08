@@ -294,6 +294,7 @@ Practice Algorithm with LeetCode
 | [0856-score-of-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [0940-distinct-subsequences-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0940-distinct-subsequences-ii/) | Hard |
+| [1021-remove-outermost-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -457,6 +458,7 @@ Practice Algorithm with LeetCode
 | [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -723,6 +725,7 @@ Practice Algorithm with LeetCode
 | [0678-valid-parenthesis-string](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |

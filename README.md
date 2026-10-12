@@ -66,6 +66,7 @@ Practice Algorithm with LeetCode
 | [2778-sum-of-squares-of-special-elements](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
@@ -139,6 +140,7 @@ Practice Algorithm with LeetCode
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
@@ -400,6 +402,7 @@ Practice Algorithm with LeetCode
 | [2333-minimum-sum-of-squared-difference](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
@@ -594,6 +597,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3314-construct-the-minimum-bitwise-array-i/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |

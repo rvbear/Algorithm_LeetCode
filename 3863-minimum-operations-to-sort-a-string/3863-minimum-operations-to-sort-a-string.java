@@ -1,24 +1,49 @@
-import java.util.*;
-
 class Solution {
     public int minOperations(String s) {
         int n = s.length();
 
-        if (IntStream.range(1, n).allMatch(i -> s.charAt(i - 1) <= s.charAt(i))) {
+        if (isSorted(s)) {
             return 0;
         }
-
+        
         if (n == 2) {
             return -1;
         }
 
-        IntSummaryStatistics mid = s.chars().skip(1).limit(n - 2).summaryStatistics();
-        int first = s.charAt(0), last = s.charAt(n - 1), lo = mid.getMin(), hi = mid.getMax();
-
-        if (first <= Math.min(lo, last) || Math.max(first, hi) <= last) {
-            return 1;
+        int[] freq = new int[26];
+        
+        for (int i = 0; i < n; i++) {
+            freq[s.charAt(i)-'a']++;
         }
 
-        return last < lo && hi < first ? 3 : 2;
+        int first = 0, last = 25;
+        
+        while (freq[first] == 0) {
+            first++;
+        }
+
+        while (freq[last] == 0) {
+            last--;
+        }
+
+        if (s.charAt(0) - 'a' == first) {
+            return 1;
+        } else if (s.charAt(n - 1) - 'a' == last) {
+            return 1;
+        } else if (s.charAt(0) - 'a' != last || s.charAt(n - 1) - 'a' != first || freq[first] > 1 || freq[last] > 1) {
+            return 2;
+        } else {
+            return 3;
+        }
+    }
+
+    private boolean isSorted(String s) {
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) < s.charAt(i - 1)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }

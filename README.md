@@ -251,6 +251,7 @@ Practice Algorithm with LeetCode
 | [1927-sum-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2409-count-days-spent-together](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2409-count-days-spent-together/) | Easy |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
@@ -329,6 +330,7 @@ Practice Algorithm with LeetCode
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2075-decode-the-slanted-ciphertext](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
+| [2409-count-days-spent-together](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2409-count-days-spent-together/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |

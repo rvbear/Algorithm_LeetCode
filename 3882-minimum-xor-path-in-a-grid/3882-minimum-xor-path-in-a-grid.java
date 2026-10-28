@@ -1,30 +1,42 @@
 class Solution {
+    private int answer;
+    private boolean[][][] memo;
+
     public int minCost(int[][] grid) {
-        int n = grid[0].length;
-        boolean[][] dp = new boolean[n][1024];
+        int m = grid.length, n = grid[0].length;
+        int startVal = grid[0][0];
+        answer = Integer.MAX_VALUE;
+        memo = new boolean[m][n][1024];
 
-        dp[0][0] = true;
+        dfs(grid, 0, 0, 0, m, n);
 
-        for (int[] row : grid) {
-            for (int j = 0; j < n; j++) {
-                boolean[] next = new boolean[1024];
+        return answer;
+    }
 
-                for (int x = 0; x < 1024; x++) {
-                    if (dp[j][x] || j > 0 && dp[j - 1][x]) {
-                        next[x ^ row[j]] = true;
-                    }
-                }
+    private void dfs(int[][] grid, int i, int j, int xor, int m, int n) {
+        xor ^= grid[i][j];
 
-                dp[j] = next;
-            }
+        if (answer == 0) {
+            return;
         }
 
-        int x = 0;
-
-        while (!dp[n - 1][x]) {
-            x++;
+        if (memo[i][j][xor]) {
+            return;
         }
 
-        return x;
+        memo[i][j][xor] = true;
+        
+        if (i == m - 1 && j == n - 1) {
+            answer = Math.min(answer, xor);
+            return;
+        }
+
+        if (i + 1 < m) {
+            dfs(grid, i + 1, j, xor, m, n);
+        }
+
+        if (j + 1 < n) {
+            dfs(grid, i, j + 1, xor, m, n);
+        }
     }
 }

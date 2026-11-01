@@ -11,6 +11,7 @@ Practice Algorithm with LeetCode
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0486-predict-the-winner](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0486-predict-the-winner/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0877-stone-game](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0877-stone-game/) | Medium |
@@ -245,6 +246,7 @@ Practice Algorithm with LeetCode
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0396-rotate-function/) | Medium |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0486-predict-the-winner](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0486-predict-the-winner/) | Medium |
 | [0788-rotated-digits](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [0836-rectangle-overlap](https://github.com/rvbear/Algorithm_LeetCode/tree/main/0836-rectangle-overlap/) | Easy |

@@ -44,6 +44,7 @@ Practice Algorithm with LeetCode
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1872-stone-game-viii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1872-stone-game-viii/) | Hard |
+| [1882-process-tasks-using-servers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2029-stone-game-ix](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2029-stone-game-ix/) | Medium |
@@ -719,6 +720,7 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1882-process-tasks-using-servers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |

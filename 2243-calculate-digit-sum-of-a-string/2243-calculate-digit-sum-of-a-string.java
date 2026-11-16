@@ -1,22 +1,27 @@
 class Solution {
     public String digitSum(String s, int k) {
-        String answer = s;
+        int t = s.length();
 
-        while (answer.length() > k) {
-            String temp = answer;
-            answer = "";
-
-            for (int i = 0; i < temp.length(); i += k) {
-                int val = 0;
-
-                for (char c : temp.substring(i, Math.min(i + k, temp.length())).toCharArray()) {
-                    val += c - '0';
-                }
-
-                answer += val;
-            }
+        if (t <= k) {
+            return s;
         }
 
-        return answer;
+        StringBuilder answer = new StringBuilder();
+        int sum = 0;
+      
+        for (int i = 0; i < t; i++) {
+            sum += s.charAt(i) - '0';
+
+            if ((i + 1) % k == 0) {
+                answer.append(sum);
+                sum = 0;     
+            }          
+        }
+
+        if (t % k != 0) {
+                answer.append(sum);
+        }
+
+        return digitSum(String.valueOf(answer),k);
     }
 }

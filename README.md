@@ -152,6 +152,7 @@ Practice Algorithm with LeetCode
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3903-smallest-stable-index-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3903-smallest-stable-index-i/) | Easy |
+| [3934-smallest-unique-subarray](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -203,6 +204,7 @@ Practice Algorithm with LeetCode
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3739-count-subarrays-with-majority-element-ii/) | Hard |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
+| [3934-smallest-unique-subarray](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -595,6 +597,7 @@ Practice Algorithm with LeetCode
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
+| [3934-smallest-unique-subarray](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -905,4 +908,16 @@ Practice Algorithm with LeetCode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1352-product-of-the-last-k-numbers](https://github.com/rvbear/Algorithm_LeetCode/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
+## Rolling Hash
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
+## Suffix Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
+## Hash Function
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/rvbear/Algorithm_LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 <!---LeetCode Topics End-->
